@@ -32,13 +32,19 @@ Do not assume the project currently works without the original author's external
 
 ## Repository boundaries and privacy
 
-The repository contains application source, public documentation and distributable templates only. It **must not** contain private genealogy snapshots, names and histories of private individuals from personal records, game saves, encrypted material, credentials, private stories, locally generated observations or game data archives. Review `git ls-files` and staged changes before publishing; `.gitignore` does not remove already tracked files.
+The repository contains application source, public documentation and distributable templates only. It **must not** contain private genealogy snapshots, unapproved personal information, game saves, encrypted material, credentials, private stories, locally generated observations or game data archives. Review `git ls-files` and staged changes before publishing; `.gitignore` does not remove already tracked files.
 
-The local status file `/tmp/pedigree_status.json` is a generated runtime record, not a checked-in data file. The intended design has each process update only its own key; the current code's JSON merge behavior still requires correction.
+The local status file `/tmp/pedigree_status.json` is a generated runtime record, not a checked-in data file. The intended design has each process update only its own key; native testing verified that VibePedigree_Main updates while preserving VibePedigree_sh.
 
 ## Game independence
 
 VibePedigree is a companion application, not a distribution of Diablo or DevilutionX. It does not bundle Blizzard assets, the GOG installer, MPQ data, or a modified game executable. Game interaction is optional and requires the user's separately obtained, lawful installation. The original DevilutionX project's license and third-party copyright notices govern any separate engine derivatives. Do not relicense their code as VibePedigree's. See [Third-party notices](docs/THIRD_PARTY.md).
+
+## Verified native installation
+
+On October 18, 2026, the native Manjaro build was tested with 113 KinMap people, 114 relationships, a running Bot, a manual Mistral handoff, shared status timestamps, and synchronized Task Orchestrator paths. This is not yet a portable public installation.
+
+The local genealogy privacy rule protects exactly four birth years: 1981, 1960, 1926, and 1928. Approved historical records may be published; private source databases and unapproved personal details must remain excluded.
 
 ## Roadmap
 
