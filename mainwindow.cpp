@@ -84,7 +84,14 @@ QString maskedLocalTime(const QDateTime &value) {
     return d.date().toString("yyyy-MM-dd") + (shown.isEmpty() ? QString() : " " + shown);
 }
 QString vpProjectRoot() {
-    return QDir(QCoreApplication::applicationDirPath()).absoluteFilePath("..");
+    const QString localProject =
+        QDir::homePath() + "/Projects/VibePedigree";
+
+    if (QFileInfo::exists(localProject + "/instructions/init.md"))
+        return localProject;
+
+    return QDir(QCoreApplication::applicationDirPath())
+        .absoluteFilePath("..");
 }
 QString vpInstructionsRoot() {
     return QDir(vpProjectRoot()).filePath("instructions");
