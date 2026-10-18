@@ -1,0 +1,2 @@
+# Publishing
+Review real project development through November 15, 2026 before drafting. Prepare a four-word title, two factual paragraphs for j03.page, a LinkedIn post, a Facebook post, and a short spoken script ending with an invitation to visit jay zero three dot page. Exclude fictional Diablo material. Do not use the words AI, SEO, 4th grade, Teacher, or Realtor in public drafts. Use a user-supplied blog URL in social posts. Nothing is published without approval.

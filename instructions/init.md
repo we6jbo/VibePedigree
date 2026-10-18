@@ -1,0 +1,2 @@
+# VibePedigree instructions
+Read this file first. Work on the application from its source directory. For game work, start Mistral with the working directory at ~/.Diablo. Inspect before editing. Never modify protected game saves, genealogy originals, frozen backups, or credentials. Ask for confirmation before restore or public publishing. Do not upload private genealogy or proprietary game assets.

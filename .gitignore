@@ -1,7 +1,73 @@
-build/
-build-*/
-cmake-build-*/
+# CMake / Qt build outputs and IDE settings
+/build/
+/build-*/
+/cmake-build-*/
 CMakeFiles/
 CMakeCache.txt
+CMakeUserPresets.json
 *.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dll
+*.exe
+*.app/
 *.user
+*.user.*
+.qtcreator/
+.vs/
+.idea/
+.vscode/
+
+# Machine-generated and installer backups
+.vibepedigree-backups/
+*.backup-*
+*.pre-restore-*
+*.bak
+*.tmp
+*.log
+*~
+
+# Private genealogy, story and personal datasets
+/tg_context_snapshot.json
+/kinmap_family_tree.json
+**/kinmap_state.json
+**/family-drops.tsv
+**/vibe_bot_info.md
+**/real stories.db
+**/*.sqlite
+**/*.sqlite3
+**/*.db
+/private/
+/local-data/
+/secrets/
+
+# Proprietary game assets, keys and credentials
+*.mpq
+*.MPQ
+setup_diablo_*.exe
+*.aesgcm
+secrets.key
+*.pem
+*.key
+.env
+.env.*
+*.p12
+*.pfx
+**/credentials.json
+**/tokens.json
+**/test-saves/
+**/test-config/
+**/diablo-extracted/
+**/game-data/
+
+# Locally generated outputs
+/pedigree_status.json
+/vibepedigree-vibe.sh
+/coverage/
+/packaging/out/
+
+# Python generated files
+__pycache__/
+*.py[cod]
